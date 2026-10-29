@@ -9,7 +9,7 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: 1. Lay code moi nhat tu Github
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
       - name: 2. Cap nhat thang ra Nginx Port 80
         run: |
